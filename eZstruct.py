@@ -1,7 +1,7 @@
 from struct import *
 
 
-class _struct:
+class eZstruct:
     fmt = None
     all_items = []
 
