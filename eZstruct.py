@@ -16,6 +16,7 @@ class eZstruct:
         items.insert(0, self.fmt)
         struct_item = pack(*(items))
         self.all_items.append(struct_item)
+        return struct_item
 
 
     def _unpack(self, struct_item):
